@@ -1,12 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
-import java.util.ArrayList;
 import java.util.concurrent.CopyOnWriteArrayList;
-import javax.swing.Timer;
 
 public class CrossroadsSimulation extends JPanel {
-    DataPanel dataPanel;
-
     CopyOnWriteArrayList<Lane> lanes;
     TrafficLightControler trafficLightControler;
 

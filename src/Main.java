@@ -43,7 +43,6 @@ public class Main {
             System.out.println("Number of active threads: " + activeThreadCount);
         }, 0, 500, TimeUnit.MILLISECONDS);
 
-        // Schedule the repaint tasks for simulation and data panel
         scheduler.scheduleAtFixedRate(() -> {
             crossroadsSimulation.repaint();
             dataPanel.repaint();

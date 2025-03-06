@@ -10,7 +10,7 @@ public class TrafficLightControler implements Runnable {
     int lasTLaneWithGreen = -1; // - 1 signals no lane had green light
 
     public TrafficLightControler() {
-        lanes.add(new Lane(330, 280, new Point(330, 600), new Point(275, 330)));//lane0 / straoght / truning
+        lanes.add(new Lane(330, 280, new Point(330, 600), new Point(275, 330)));//lane0
         lanes.add(new Lane(390, 280, new Point(390, 600), new Point(600, 510)));//lane1
 
         lanes.add(new Lane(510, 600, new Point(510, 275), new Point(275, 390)));//lane2

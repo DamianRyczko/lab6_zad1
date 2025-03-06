@@ -62,7 +62,7 @@ public class CarFactory {
     }
     private boolean decideCarMovment(){
         double randomDouble = Math.random();
-        // 50% chance to add a car
+        // 50% chance for turning
         return randomDouble > 0.5;
     }
 }
